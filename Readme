@@ -1,0 +1,17 @@
+ 
+ Steps to run the code
+ 
+ 1. Run main.py file
+ 2. open POSTMAN set method POST
+ 3. Insert API
+    test Api= http://127.0.0.1:5000/detect_plate
+ 4. Set Input image Type
+      Body--> row --> Json
+ 5.Insert your input Encoded Image as follows.
+
+    {
+    "image": "Your Base64 Image path"
+    }
+
+
+    Some Encoded Image (in base 64) Provided In Converted Image 64 base.txt File
